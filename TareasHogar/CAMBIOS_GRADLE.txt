@@ -1,0 +1,47 @@
+NO reemplaces tus archivos Gradle: agregá solamente estas líneas a los que generó Android Studio.
+Si Android Studio te sugiere una versión más nueva de alguna dependencia, podés aceptarla.
+
+==========================================================
+1) build.gradle.kts  (el de la RAÍZ del proyecto)
+==========================================================
+
+plugins {
+    // ... lo que ya tenés ...
+    id("com.google.gms.google-services") version "4.5.0" apply false
+}
+
+==========================================================
+2) app/build.gradle.kts  (el del módulo app)
+==========================================================
+
+plugins {
+    // ... lo que ya tenés ...
+    id("com.google.gms.google-services")
+}
+
+dependencies {
+    // ... lo que ya tenés ...
+
+    // Firebase
+    implementation(platform("com.google.firebase:firebase-bom:34.19.0"))
+    implementation("com.google.firebase:firebase-auth")
+    implementation("com.google.firebase:firebase-firestore")
+    implementation("com.google.firebase:firebase-analytics")
+
+    // Permite usar .await() sobre las Task de Firebase con corrutinas
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.9.0")
+
+    // viewModel() dentro de Compose
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.7")
+
+    // Íconos de Material (la versión la toma del compose-bom que ya tenés)
+    implementation("androidx.compose.material:material-icons-core")
+}
+
+Después de editar: "Sync Now" (barra amarilla arriba del editor).
+
+==========================================================
+3) google-services.json
+==========================================================
+El archivo que descargás de Firebase va en:  app/google-services.json
+(al lado de app/build.gradle.kts, NO dentro de src).

@@ -1,0 +1,41 @@
+Consigna formal
+
+Guía de Trabajo Práctico 2: Aplicación del Ciclo 
+de Build-Measure-Learn
+Objetivo: Aplicar el ciclo de Build-Measure-Learn en el desarrollo de una 
+aplicación móvil.
+Material Necesario: 
+• Libro: "Lean Mobile App Development" 
+• Herramientas de desarrollo móvil (Android Studio o Xcode) 
+• Acceso a Firebase 
+Actividades: 
+1. Definición del MVP 
+◦ Leer el capítulo 6. 
+◦ Definir el Producto Mínimo Viable (MVP) para la aplicación elegida. 
+2. Construcción del MVP 
+◦ Implementar las características básicas del MVP utilizando Android 
+Studio o Xcode. 
+◦ Configurar Firebase para la autenticación de usuarios. 
+3. Medición y Aprendizaje 
+◦ Realizar pruebas con usuarios reales. 
+◦ Recopilar datos sobre el uso y analizar los resultados. 
+4. Tarea de Diagrama de Arquitectura 
+◦ Actualizar el diagrama de arquitectura basado en los resultados 
+obtenidos. 
+◦ Incluir componentes adicionales necesarios para mejorar la 
+aplicación. 
+Entregables: 
+1.Definición del MVP. 
+2.Código del MVP. 
+3.Resultados de las pruebas y análisis. 
+4.Diagrama de arquitectura actualizado.
+
+
+Consignas orales dictadas por el profesor acerca del trabajo:
+
+- TP 2 Aplicación del ciclo de Build-Measure-Lean. Aplicar el ciclo lean, lograr un mvp. hacer algo nativo. (Entrega: fecha parcial 01/10) Hacer lista requerimientos. Hacer pruebas con un usuario real para tener un feedback de la app. recopilar lo que diga la gente. Hacer una arquitectrua básica. Entregar descripción del mvp, código, usuario y diagrama de arquitectura.
+
+
+La idea q tenemos con mi grupo es hacer una app q le permita a una familia organizar las tareas del hogar.
+Te doy libertad creativa para tomar las deciciones q consideres necesarias para llevarla a cobo.
+

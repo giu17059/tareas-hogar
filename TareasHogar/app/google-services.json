@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "349488028818",
+    "project_id": "tareas-del-hogar-e0b76",
+    "storage_bucket": "tareas-del-hogar-e0b76.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349488028818:android:d5962a4a3429b4b4b59a4b",
+        "android_client_info": {
+          "package_name": "com.example.tareashogar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAk4Odhv-ZIKeVuThDZ6wC0GsTlL8OyFas"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
